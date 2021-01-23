@@ -1,0 +1,87 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 50px 0;
+}
+
+.album {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("Books.jpg");
+    background-color: rgba(0,0,0,0.4);
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("Cherry.jpg");
+
+    /* Set a specific height */
+    min-height: 175px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("Lenny.jpg");
+
+    /* Set a specific height */
+    min-height: 200px; 
+    margin:0 auto;
+        /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-4{
+  float:none;
+  margin:auto;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+img{
+  padding:0;
+  margin: 0px;
+}
+.lead{
+   text-align: justify;
+   font-size: 30px;
+}
+
